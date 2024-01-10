@@ -1,51 +1,39 @@
-# Facebook Clone
+# Social Media Clone
 
-A social media platform inspired by Facebook, built using the MERN stack and Material-UI.
-
-## Table of Contents
-
-- [Introduction](#introduction)
-- [Features](#features)
-- [Technologies](#technologies)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
-
-## Introduction
-
-Welcome to the Facebook Clone! This project aims to recreate the core features of Facebook using the MERN stack (MongoDB, Express.js, React, Node.js) and Material-UI for a modern and responsive user interface.
+A Facebook-inspired social media platform using MERN stack and Material-UI.
 
 ## Features
 
-- User authentication and authorization
-- Create, edit, and delete posts
-- Like and comment on posts
-- Friend requests and friend list management
-- Real-time updates using WebSocket for notifications
+- Authentication and authorization
+- Post creation, editing, and deletion
+- Like and comment functionality
+- Friend requests and list management
+- Real-time updates with WebSocket
 
-## Technologies
+## Tech Stack
 
-- **Frontend:**
-  - React.js
-  - Material-UI
+- Frontend: React.js, Material-UI
+- Backend: Node.js, Express.js, MongoDB
+- Authentication: JWT
+- Real-time Communication: Socket.io
 
-- **Backend:**
-  - Node.js
-  - Express.js
-  - MongoDB (with Mongoose)
+## Setup
 
+1. Clone the repo.
+2. Install dependencies for client and server.
+3. Create `.env` file for server with PORT, MONGODB_URI, and JWT_SECRET.
+4. Start the server (port 3001) and client (port 3000).
+5. Open `http://localhost:3000` in your browser.
 
-## Installation
+## Usage
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/facebook-clone.git
+- Register or log in to your account.
+- Interact with posts
 
+## Contributing
 
-cd client
-npm install
+Contributions welcome! Open issues or submit pull requests.
 
-cd ../server
-npm install
+## License
 
+MIT License. See [LICENSE](LICENSE) for details.
